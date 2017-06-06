@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700');
+.title,
+h3,
+p {
+    color: #109d2b;
+}
+
+
+/* hover指滑鼠游標移過去的事件 */
+
+.btn {
+    color: white;
+    background: #5e6a7e;
+    display: inline-block;
+    width: 500px;
+    height: 54px;
+    text-align: center;
+    line-height: 44px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #498cf8;
+}
+
+.btn:active {
+    background: #498cf8;
+}
+
+h1 {
+    font-family: 'Ostrich', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    background: yellow;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, .5);
+    text-decoration: underline;
+}
